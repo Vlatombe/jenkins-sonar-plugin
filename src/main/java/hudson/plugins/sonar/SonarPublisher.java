@@ -373,7 +373,7 @@ public class SonarPublisher extends Notifier {
   }
 
   public BuildStepMonitor getRequiredMonitorService() {
-    return BuildStepMonitor.BUILD;
+    return BuildStepMonitor.NONE;
   }
 
   /**
